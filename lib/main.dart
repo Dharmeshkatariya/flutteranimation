@@ -7,6 +7,7 @@ import '3d_drwaer.dart';
 import 'animated_prompt.dart';
 import 'circle_animation.dart';
 import 'custompaineter_polygon.dart';
+import 'floating_action_button_animation.dart';
 import 'hero_animation.dart';
 
 void main() {
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
       themeMode: ThemeMode.dark,
       debugShowCheckedModeBanner: false,
       debugShowMaterialGrid: false,
-      home: const AnimatedDialogScreen(),
+      home:  FloatingButtonScreen(),
     );
   }
 }
